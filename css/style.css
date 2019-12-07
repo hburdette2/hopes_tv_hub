@@ -1,5 +1,80 @@
-.tv-image {
+img {  
+    height: auto;  
+    width: 500px;
     float: right;
-    padding: 25px;
+    background: cover;
+    padding-right: 25px;
 }
 
+.history {
+    position: relative;
+    text-align: right;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-top: -50px;
+    
+}
+.nav-wrapper {
+background-color: black;
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+.links {
+   padding-top: 200px;
+   padding-left: 25px;
+}
+
+body {
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: grey;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h5 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h4 {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 25px;
+}
