@@ -20,11 +20,6 @@ img {
 background-color: black;
 }
 
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
-
 .links {
    padding-top: 200px;
    padding-left: 25px;
@@ -79,4 +74,9 @@ dl {
     float: left;
     font-weight: bold;
     padding-left: 10px;
+}
+
+dd {
+  font-weight: bold;
+  font-style: red;
 }
