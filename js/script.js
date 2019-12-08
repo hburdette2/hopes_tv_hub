@@ -18,7 +18,8 @@ $.ajax(settings).done(
         $('#number').html(data[1][0].number);
         $('#release_date').html(data[1][0].release_date);
         $('#season').html(data[1][0].season);
-        $('#show.title').html(data[1][0].show.title);
+        $('#show.title').html(data[1][0].show);
         $('#title').html(data[1][0].title);
        
+        
      }))})
