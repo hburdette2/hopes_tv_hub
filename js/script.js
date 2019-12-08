@@ -21,5 +21,4 @@ $.ajax(settings).done(
         $('#show.title').html(data[1][0].show);
         $('#title').html(data[1][0].title);
        
-        
      }))})
